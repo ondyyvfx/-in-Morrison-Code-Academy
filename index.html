@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Hut</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://unpkg.com/boxicons/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="section1">
+      <div class="circle"></div>
+      <header>
+        <a href="#"
+          ><img src="./img/logo.png" class="logohut" alt="pizzahutlogo"
+        /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Additionals</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textbox">
+          <h2>
+            It's not just the Pizza <br />
+            It's <span>PizzaHut</span>
+          </h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque est
+            officia voluptatem id, enim placeat, iusto labore, quam aspernatur
+            voluptatum excepturi architecto cumque eum eveniet nam ab.
+            Praesentium, tenetur non!
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div class="imgbox">
+          <img class="pizzahut" src="./img/pizza1.png" alt="a" width="100%" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="./img/pizza1.png"
+            alt=""
+            width="100%"
+            onclick="imgSlider('./img/pizza1.png');changeCircleColor('#EF1B03')"
+          />
+        </li>
+        <li>
+          <img
+            src="./img/pizza2.png"
+            alt=""
+            width="110%"
+            onclick="imgSlider('./img/pizza2.png');changeCircleColor('#f5b44f')"
+          />
+        </li>
+        <li>
+          <img
+            src="./img/pizza3.png"
+            alt=""
+            width="100%"
+            onclick="imgSlider('./img/pizza3.png');changeCircleColor('#111111')"
+          />
+        </li>
+      </ul>
+      <ul class="sci">
+        <li>
+          <a href="#"
+            ><img src="./img/facebook_1077041.png" alt="a" width="100%"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./img/instagram_739244.png" alt="a" width="100%"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./img/letter-x_5084698.png" alt="a" width="100%"
+          /></a>
+        </li>
+      </ul>
+    </section>
+    <section class="shop" id="shop">
+      <div class="heading">
+        <span>Shop Now</span>
+        <h1>Shop Pizza</h1>
+      </div>
+      <div class="sh-container">
+        <div class="box">
+          <div class="box-img">
+            <img src="./img/pizza1.png" width="100%" alt="" />
+          </div>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <h2>Margherita Pizza</h2>
+          <span>$ 15.2</span>
+          <a href="#" class="btn">Order now</a>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="./img/pizza2.png" width="90%" alt="" />
+          </div>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+          <h2>Whole lotta red Pizza</h2>
+          <span>$ 13.7</span>
+          <a href="#" class="btn">Order now</a>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="./img/pizza3.png" width="100%" alt="" />
+          </div>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <h2>Pizza Whole Word</h2>
+          <span>$ 12.8</span>
+          <a href="#" class="btn">Order now</a>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="./img/lasvegas.png" width="100%" alt="" />
+          </div>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <h2>Las-Vegas Pizza</h2>
+          <span>$ 17.6</span>
+          <a href="#" class="btn">Order now</a>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="./img/karbonara.png" width="100%" alt="" />
+          </div>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <h2>Karbonara Pizza</h2>
+          <span>$ 13.5</span>
+          <a href="#" class="btn">Order now</a>
+        </div>
+      </div>
+    </section>
+    <!-- About Us -->
+    <section class="aboutus">
+      <div class="heading2">
+        <span>About Us</span>
+        <h1>PizzaHut</h1>
+      </div>
+      <div class="container">
+        <div class="imgus">
+          <img src="./img/pizzahut.jpg" width="100%" alt="" />
+        </div>
+        <div class="textus">
+          <h2>Our Pizzeria</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            expedita repellendus non molestias architecto, velit aut fugiat
+            natus sequi explicabo quis voluptatibus nobis unde ipsam nemo,
+            libero tenetur quaerat atque!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            expedita repellendus non molestias architecto, velit aut fugiat
+            natus sequi explicabo quis voluptatibus nobis unde ipsam nemo,
+            libero tenetur quaerat atque!
+          </p>
+          <a href="#" class="btn">Learn more</a>
+        </div>
+      </div>
+    </section>
+    <!-- Rate -->
+    <section class="rateus">
+      <div class="heading2">
+        <span>Our</span>
+        <h1>reviews</h1>
+      </div>
+      <div class="container1">
+        <div class="imgus">
+          <img src="./img/avatar1.png" width="75%" alt="imageofguest" />
+        </div>
+        <div class="textus">
+          <h2>Antony Johnson</h2>
+          <p>
+            I recently had the pleasure of dining at Pizzeria Bella Napoli, and
+            I must say, it was an unforgettable experience. Tucked away in a
+            cozy corner of the city, this pizzeria offers an authentic Italian
+            ambiance that immediately makes you feel at home.
+          </p>
+          <p>
+            From the moment I walked in, the aroma of freshly baked pizza filled
+            the air. The decor is charmingly rustic, with wooden tables,
+            checkered tablecloths, and walls adorned with beautiful Italian
+            artwork. The staff greeted me warmly and were attentive throughout
+            my visit, providing excellent recommendations and ensuring I had
+            everything I needed.
+          </p>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+          <a href="#" class="btn">Thank you!</a>
+        </div>
+      </div>
+      <div class="container1">
+        <div class="imgus">
+          <img src="./img/avatar1.png" width="75%" alt="imageofguest" />
+        </div>
+        <div class="textus">
+          <h2>Michael Mitchell</h2>
+          <p>
+            I recently had the pleasure of dining at Pizzeria Bella Napoli, and
+            I must say, it was an unforgettable experience. Tucked away in a
+            cozy corner of the city, this pizzeria offers an authentic Italian
+            ambiance that immediately makes you feel at home.
+          </p>
+          <p>
+            From the moment I walked in, the aroma of freshly baked pizza filled
+            the air. The decor is charmingly rustic, with wooden tables,
+            checkered tablecloths, and walls adorned with beautiful Italian
+            artwork. The staff greeted me warmly and were attentive throughout
+            my visit, providing excellent recommendations and ensuring I had
+            everything I needed.
+          </p>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <a href="#" class="btn">Thank you!</a>
+        </div>
+      </div>
+      <div class="container1">
+        <div class="imgus">
+          <img src="./img/avatar1.png" width="75%" alt="imageofguest" />
+        </div>
+        <div class="textus">
+          <h2>Michael Thompson</h2>
+          <p>
+            I recently had the pleasure of dining at Pizzeria Bella Napoli, and
+            I must say, it was an unforgettable experience. Tucked away in a
+            cozy corner of the city, this pizzeria offers an authentic Italian
+            ambiance that immediately makes you feel at home.
+          </p>
+          <p>
+            From the moment I walked in, the aroma of freshly baked pizza filled
+            the air. The decor is charmingly rustic, with wooden tables,
+            checkered tablecloths, and walls adorned with beautiful Italian
+            artwork. The staff greeted me warmly and were attentive throughout
+            my visit, providing excellent recommendations and ensuring I had
+            everything I needed.
+          </p>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+          <a href="#" class="btn">Thank you!</a>
+        </div>
+      </div>
+    </section>
+    <!-- Contacts -->
+    <section class="contact" id="contact">
+      <div class="social">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+        <a href="#"><i class="bx bxl-youtube"></i></a>
+      </div>
+      <div class="links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Our Company</a>
+      </div>
+      <p>If u have any questions call us (8 777 111 33-44)</p>
+      <p>&#169; Made by Ondyy(Alikhan) All Rights Reserved.</p>
+    </section>
+
+    <script type="text/javascript">
+      function imgSlider(anything) {
+        document.querySelector(".pizzahut").src = anything;
+      }
+
+      function changeCircleColor(color) {
+        const circle = document.querySelector(".circle");
+        circle.style.background = color;
+      }
+    </script>
+  </body>
+</html>
